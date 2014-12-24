@@ -1,0 +1,14 @@
+{
+  "name": "codeforchina",
+  "private": true,
+  "scripts": {
+    "serve": "node_modules/.bin/serve .",
+    "dev": "npm run serve"
+  },
+  "devDependencies": {
+    "serve": "~1.4.0"
+  },
+  "dependencies": {
+    "rewatch": "^0.4.0"
+  }
+}
