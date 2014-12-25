@@ -3,9 +3,12 @@
   "private": true,
   "scripts": {
     "serve": "node_modules/.bin/serve .",
-    "dev": "npm run serve"
+    "build-less": "node_modules/.bin/lessc -x less/codeforchina.less dist/codeforchina.min.css",
+    "watch": "node_modules/.bin/rewatch less/*.less -c 'npm run build-less'",
+    "dev": "npm run serve & npm run watch"
   },
   "devDependencies": {
+    "less": "~1.7.3",
     "serve": "~1.4.0",
     "rewatch": "^0.4.0"
   }
