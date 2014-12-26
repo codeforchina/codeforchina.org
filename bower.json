@@ -4,6 +4,7 @@
   "devDependencies": {
     "bootstrap": "3.3.1",
     "debug": "git@github.com:visionmedia/debug.git",
-    "wechat.js": "~0.1.2"
+    "wechat.js": "~0.1.2",
+    "font-awesome": "~4.2.0"
   }
 }
